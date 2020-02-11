@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     function genProds(sku) {
         for (var i in sku) {
-            // console.log(sku[i]);
+            
             var html = [
                 ` <div id="${
           sku[i].id
