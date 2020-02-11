@@ -40,7 +40,7 @@ $(document).ready(function() {
             var html = [
                 ` <div id="${
           sku[i].id
-        }" class="cell-sm-6 cell-md-4 view-animate fadeInRightSm delay-1 p-3"><article class="post-news bg-white"><a href="news-post-page.html"><img class="img-responsive" src="images/home-02-370x240.jpg" width="370" height="240" alt=""></a>
+        }" class="cell-sm-6 cell-md-4 view-animate fadeInRightSm delay-1 p-3"><article class="post-news bg-white"><a href="news-post-page.html"><img class="img-responsive" src="images/slide-03-1920x1000.jpg" width="370" height="240" alt=""></a>
                  <div class="post-news-body-variant-1">
                    <div class="post-news-meta h4">
                    ${sku[i].attributes.name}
@@ -52,8 +52,9 @@ $(document).ready(function() {
                    
                    <div class="offset-top-9">
                    <button class="btn btn-ellipse btn-icon btn-icon-right btn-default" onclick="pagar('${
-                     sku[i].id
-                   }',1)"><span class="icon fa-shopping-cart"></span><span>Buy</span></button>
+                    sku[i].id
+                  }',1)"><span class="icon fa-shopping-cart"></span><span>Buy</span></button>
+                  
                    </div>
                  </div>
                </article></div>`
